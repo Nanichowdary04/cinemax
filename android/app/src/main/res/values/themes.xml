@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Cinemax" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/cinemax_bg</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/cinemax_bg</item>
+    </style>
+    <color name="cinemax_bg">#FF0A0A0B</color>
+    <color name="cinemax_icon_bg">#FF101012</color>
+</resources>

@@ -1,0 +1,3 @@
+blaze_face_short_range.onnx - MediaPipe BlazeFace (short range) face detector, Google, Apache License 2.0.
+ONNX conversion from https://huggingface.co/unity/inference-engine-blaze-face (Apache 2.0).
+Input 1x128x128x3 RGB in [-1, 1]; outputs 896 anchors x 16 regressors (box + 6 keypoints) and 896 scores.

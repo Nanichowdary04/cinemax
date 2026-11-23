@@ -1,0 +1,18 @@
+CINEMAX is installed.
+
+ONE MORE STEP: install a virtual audio device
+---------------------------------------------
+Windows has no built-in way for one app to process all system sound, so CINEMAX
+uses a free virtual audio cable as the hand-off point.
+
+  1. Download "VB-CABLE Virtual Audio Device" from https://vb-audio.com/Cable/
+  2. Extract the zip, right-click VBCABLE_Setup_x64.exe -> Run as administrator
+     -> Install Driver. Restart Windows if asked.
+  3. Open CINEMAX and switch the engine ON.
+
+When CINEMAX is on, Windows shows "CABLE Input" as the output. That is expected:
+apps play into the cable and CINEMAX plays the processed sound on your real
+speakers or headphones. When CINEMAX is turned off, closed, or crashes, your
+normal output is restored automatically.
+
+If you ever hear nothing: Start menu -> CINEMAX -> "CINEMAX - Restore Audio".

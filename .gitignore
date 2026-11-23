@@ -1,0 +1,26 @@
+# Build outputs (installers and binaries are published as GitHub Releases)
+dist/
+build/
+out/
+*.obj
+*.pdb
+*.ilk
+
+# UI
+ui/node_modules/
+ui/dist/
+
+# Android
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+*.keystore
+*.jks
+
+# Editors and tools
+.claude/
+.vs/
+.vscode/
+*.log
